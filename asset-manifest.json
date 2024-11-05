@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37800f52.css",
+    "main.js": "/static/js/main.a2323671.js",
+    "static/media/pajamassetjpg.jpg": "/static/media/pajamassetjpg.563cee7038ed25199dd1.jpg",
+    "static/media/jakob-owens-z5iB1iKuXEs-unsplash.jpg": "/static/media/jakob-owens-z5iB1iKuXEs-unsplash.1b34bec733682ed14a9a.jpg",
+    "static/media/ableton4.jpg": "/static/media/ableton4.26e2d7b7749bebc59bff.jpg",
+    "static/media/sleepwearimg.jpg": "/static/media/sleepwearimg.ce843f4e06f0563078a6.jpg",
+    "static/media/zazalotion.jpg": "/static/media/zazalotion.8674c8c19928b7ae584b.jpg",
+    "static/media/whitelingerie.jpg": "/static/media/whitelingerie.2262d9c8aafae9fe2950.jpg",
+    "static/media/fragrance-animate.jpg": "/static/media/fragrance-animate.f69549f2f0988e267e31.jpg",
+    "static/media/fragrance-animate2.jpg": "/static/media/fragrance-animate2.ed84c0275a1c53bb2249.jpg",
+    "static/media/braandpanniesset.jpeg": "/static/media/braandpanniesset.1ce1c80587dd6f349eae.jpeg",
+    "static/media/swimwearset.jpeg": "/static/media/swimwearset.4f9b4fb6a12c9e1c1c64.jpeg",
+    "static/media/hao.jpg": "/static/media/hao.56459cc07ce45b022fb2.jpg",
+    "static/media/zazacandle.png": "/static/media/zazacandle.db747c1e097d33f5d621.png",
+    "static/media/zazaminiperfume.png": "/static/media/zazaminiperfume.1c402b40d709d5fda385.png",
+    "static/media/zazaperfume.png": "/static/media/zazaperfume.d256cd17b2b22c47e1fd.png",
+    "static/media/lingerieset.jpeg": "/static/media/lingerieset.0925894dd3d493e42e9d.jpeg",
+    "static/media/instagram.png": "/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/twitter.png": "/static/media/twitter.8e65601e69067aadfe55.png",
+    "static/media/youtube.png": "/static/media/youtube.023fa7c90329ce3ddf55.png",
+    "static/media/zaza-light.png": "/static/media/zaza-light.53790cc6b19809b4d6dc.png",
+    "static/media/zaza-dark.png": "/static/media/zaza-dark.335fedb10ca19417d529.png",
+    "static/media/facebook.png": "/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "index.html": "/index.html",
+    "main.37800f52.css.map": "/static/css/main.37800f52.css.map",
+    "main.a2323671.js.map": "/static/js/main.a2323671.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37800f52.css",
+    "static/js/main.a2323671.js"
+  ]
+}

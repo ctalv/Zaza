@@ -13,19 +13,22 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmaduafo/Zaza-Ecommerce-Website.git"
+    "url": "git+https://github.com/ctalv/Zaza.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jmaduafo/Zaza-Ecommerce-Website/issues"
   },
-  "homepage": "https://github.com/jmaduafo/Zaza-Ecommerce-Website#readme",
+  "homepage": "https://ctalv.github.io/Zaza.git",
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "gh-pages": "^6.2.0"
   }
 }

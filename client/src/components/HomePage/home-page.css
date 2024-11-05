@@ -1,0 +1,100 @@
+.homepage-wrapper-home {
+    position: relative;
+    background-color: white;
+}
+
+.border-with-icons {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    background-color: #d1dcda;
+    padding: 20px 0;
+    margin-top: 25px;
+    width: 100vw;
+}
+
+.icon-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-p {
+    margin-top: 1px;
+    width: 60%;
+    font-weight: 300;
+    /* margin-bottom: 10px;
+    margin-right: 10px; */
+    /* overflow-wrap: break-word; */
+    /* font-size: 10px; */
+
+}
+
+.fasionsets-container {
+    /* position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fashion-item {
+    position: relative;
+    width: 100%;
+    height: 40em;
+    object-fit: cover;
+}
+
+.fashion-item img {
+    width: 100%;
+    height: 100%;
+}
+.fashion-item-cover {
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease;
+}
+
+.fashion-item-cover h4 {
+    color: var(--light);
+    font-family: 'Kaisei Decol', serif;
+}
+
+.fashion-item-cover:hover {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+@media screen and (max-width: 768px) {
+    .fasionsets-container {
+        flex-direction: column;
+    }
+
+    .fashion-item {
+        flex: 0 0 calc(100% - 20px);
+    }
+}

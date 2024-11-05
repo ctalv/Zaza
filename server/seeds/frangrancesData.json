@@ -1,0 +1,179 @@
+[
+    {
+        "name": "Bare Rose Eau de Parfum",
+        "description": "This bloom becomes you. A floral extension of its original, Bare Rose Eau De Parfum borrows Bare’s blend of proprietary musks to mix with your body chemistry for a unique signature scent. ",
+        "image": [
+            "https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691461516/ZAZA%20Website/zazaperfume_l6dbuc.png"
+        ],
+        "price": 69.95,
+        "stock": 50,
+        "sizes": [
+            "1.7 oz",
+            "3.4 oz"
+        ]
+    },
+    {
+        "name": "Miss Zaza Mini Eau de Parfum",
+        "description": "In a warm and floral perfume, fresh notes of lily-of-the-valley, spicy peony, and powdery iris immediately",
+        "image": [
+            "https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691461524/ZAZA%20Website/zazaminiperfume_ntwkcj.png"
+        ],
+        "price": 30.95,
+        "stocks": 110,
+        "scents": [
+            "Warm Florals"
+        ],
+        "sizes": [
+            "1.7 oz",
+            "3.4 oz"
+        ]
+    },
+    {
+        "name": "Miss Zaza Eau de Lotion",
+        "description": "A fantastically vanilla vision where succulent fruit overflows and electric petals buzz through a kaleidoscopic lens. Intensify with matching Honey Melon.",
+        "image": [
+            "https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691461482/ZAZA%20Website/Your_paragraph_text_jtynls.png"
+        ],
+        "price": 19.95,
+        "stock": 250,
+        "scents": [
+            "Sweet Vanilla",
+            "Honey Melon"
+        ],
+        "sizes": [
+            "17fL.oz"
+        ]
+    },
+    {
+        "name": "Fuchsia Fantasy Parfum",
+        "description": "A fantastically pink vision where succulent fruit overflows and electric petals buzz through a kaleidoscopic lens. Intensify with matching Fragrance Mist.",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691530456/ZAZA%20Images/skin-care-product-beige-stones_fje9dp.jpg"
+        ],
+        "price": 19.95,
+        "stock": 250,
+        "scents": [
+            "Petal Buzz",
+            "Sugar Blur",
+            "Nectar Pulse",
+            "Berry Spill"
+        ]
+    },
+    {
+        "name": "Glow Recipe Cream",
+        "description": "A lightweight body cream that hydrates, smooths, quickly dries down, and reduces the appearance of uneven skin tone.",
+        "image": [
+            "https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691463254/ZAZA%20Website/zazalotion_nogaho.jpg"
+        ],
+        "price": 46.95,
+        "stock": 150,
+        "scents": [
+            "Fresh Fruity Florals"
+        ],
+        "sizes": [
+            "1.7 oz"
+        ]
+    },
+    {
+        "name": "Zaza Nouvelle Bougie Candle",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691461501/ZAZA%20Website/zazacandle_x8wvyw.png"
+        ],
+        "price": 25.95,
+        "stocks": 112,
+        "scents": [
+            "Warm Florals",
+            "Honey Melon",
+            "Cranberry Dahlia"
+        ],
+        "sizes": [
+            "11oz"
+        ]
+    },
+    {
+        "name": "Sleek Sheen Body Oil",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691460054/ZAZA%20Images/herbal-therapy-products-assortment_il6s5x.jpg"
+        ],
+        "price": 15.65,
+        "stocks": 340,
+        "scents": [
+            "Exotica",
+            "Magnolia Rise"
+        ],
+        "sizes": [
+            "1.2oz",
+            "2.4oz"
+        ]
+    },
+    {
+        "name": "Sweet Zaza Mix Oils",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691460049/ZAZA%20Images/high-angle-phytotherapy-items-arrangement_ehmnaz.jpg"
+        ],
+        "price": 15.65,
+        "stocks": 140,
+        "scents": [
+            "Honey",
+            "Rich Royal"
+        ],
+        "sizes": [
+            "1.2oz",
+            "2.4oz"
+        ]
+    },
+    {
+        "name": "Vanilla Lavendar Extract Oil",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691460049/ZAZA%20Images/high-angle-phytotherapy-items-arrangement_ehmnaz.jpg"
+        ],
+        "price": 15.65,
+        "stocks": 120,
+        "scents": [
+            "Exotica",
+            "Magnolia Rise"
+        ],
+        "sizes": [
+            "1.2oz",
+            "2.4oz"
+        ]
+    },
+    {
+        "name": "Bare Face Zaza Oils",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691530393/ZAZA%20Images/beauty-products-different-recipients_k4i5ms.jpg"
+        ],
+        "price": 15.65,
+        "stocks": 120,
+        "scents": [
+            "Cherry",
+            "Orange"
+        ],
+        "sizes": [
+            "3.2oz",
+            "5.2oz"
+        ]
+    },
+    {
+        "name": "Soft Pine Cream",
+        "description": "In a warm and floral candle, fresh notes of cranberry dahlia made into the perfect soy wax candle",
+        "image": [
+            "https://res.cloudinary.com/dyxxn831a/image/upload/v1691530386/ZAZA%20Images/skin-care-moisture-recipient-arrangement-seashell_skkxwc.jpg"
+        ],
+        "price": 15.65,
+        "stocks": 100,
+        "scents": [
+            "Herb",
+            "Pine"
+        ],
+        "sizes": [
+            "2.0oz",
+            "4.2oz"
+        ]
+    }
+]

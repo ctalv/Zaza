@@ -1,0 +1,124 @@
+.cart-page {
+    position: fixed;
+    z-index: 70;
+    width: 30%;
+    background-color: white;
+    right: 20px;
+    top: 8%;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    transition: all .1s ease;
+}
+
+.cart-display {
+    margin: 40px 0 20px;
+    height: 40vh;
+    overflow-y: auto;
+}
+
+.cart-display::-webkit-scrollbar {
+    width: 1px;
+}
+
+.cart-checkout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-checkout button, .no-products button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-page .no-products {
+    text-align: center;
+}
+
+.no-products p {
+    margin: 30px 0 15px;
+}
+
+.cart-summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    gap: 1rem;
+}
+
+.cart-summary-item-image {
+    flex-basis: 30%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.cart-summary-item-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-summary-content {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.cart-summary-title{
+    font-size: 17px;
+}
+
+.cart-checkout button {
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.price-counter p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cart-summary-item .size-delete-item {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cart-summary-item .size-delete-item p {
+    font-size: 16px;
+}
+
+.cart-summary-item .size-delete-item i {
+    font-size: 20px;
+}
+
+.total-clear-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.total-clear-all h4 {
+    font-size: 32px;
+}
+
+.total-clear-all p {
+    cursor: pointer
+}
+
+.no-products button {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

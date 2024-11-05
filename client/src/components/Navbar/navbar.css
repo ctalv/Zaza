@@ -1,0 +1,267 @@
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 30px 60px;
+    z-index: 60;
+    color: var(--light);
+    /* position: relative; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.profile-search {
+    display: flex;
+    align-items: center;
+}
+
+.profile-search a {
+    color: var(--light);
+}
+
+.zaza-logo {
+    width: 110px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.zaza-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-and-checkout {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.profile-search, .navbar .checkout-favorite {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .checkout {
+    position: relative;
+}
+
+.navbar .cart-count {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark);
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid var(--light);
+}
+
+.navbar .cart-count p {
+    font-size: 11px;
+}
+
+/* ---PROFILE HOVER FUNCTIONALITY---- */
+
+.user-profile {
+    width: fit-content;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    border-radius: 5px;
+}
+
+.user-profile div {
+    border-bottom: .5px solid rgba(0, 0, 0, 0.10);
+    transition: all .4s ease;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.user-profile div:last-child {
+    border-bottom: none;
+}
+
+.user-profile div:hover{
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.user-profile a {
+    color: var(--dark);
+}
+
+.user-profile p {
+    font-size: 13px;
+}
+
+/* ---NAV LINK HOVER FUNCTIONALITY---- */
+
+.nav-hover {
+    z-index: 50;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    position: fixed;
+    padding: 100px 60px 20px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .1s ease;
+}
+
+.nav-image {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+
+.nav-image.lingerie-nav-image {
+    background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899440/ZAZA%20Images/pixie13_jxqky0.jpg');
+    animation: lingerie-switch 5s linear infinite;
+}
+
+@keyframes lingerie-switch {
+    0% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899440/ZAZA%20Images/pixie13_jxqky0.jpg');
+    }
+    49.5% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899440/ZAZA%20Images/pixie13_jxqky0.jpg');
+    }
+    50% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899488/ZAZA%20Images/pixie14_tlvtws.jpg');
+    }
+    99.5% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899488/ZAZA%20Images/pixie14_tlvtws.jpg');
+    }
+    100% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690899440/ZAZA%20Images/pixie13_jxqky0.jpg');
+    }
+}
+
+.nav-image.fragrance-nav-image {
+    background-image: url('../../assets/images/fragrance-animate.jpg');
+    animation: fragrance-switch 5s linear infinite;
+}
+
+@keyframes fragrance-switch {
+    0% {
+        background-image: url('../../assets/images/fragrance-animate.jpg');
+    }
+    49.5% {
+        background-image: url('../../assets/images/fragrance-animate.jpg');
+    }
+    50% {
+        background-image: url('../../assets/images/fragrance-animate2.jpg');
+    }
+    99.5% {
+        background-image: url('../../assets/images/fragrance-animate2.jpg');
+    }
+    100% {
+        background-image: url('../../assets/images/fragrance-animate.jpg');
+    }
+}
+
+.nav-subcategories {
+    display: flex;
+}
+
+.nav-subcategories a {
+    color: var(--dark);
+}
+
+.subcategories div {
+    margin-bottom: 20px;
+}
+
+.nav-subcategories h4 {
+    font-family: 'Kaisei Decol', serif;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: .5px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.10);
+    align-self: center;
+    margin: 0 3rem;
+}
+
+
+@media (max-width: 375px) {
+    .line {
+        display: none;
+    }
+    .nav-image.fragrance-nav-image {
+        display: none;
+    }
+    .nav-image.lingerie-nav-image {
+        display: none;
+    }
+    .nav-hover {
+        justify-content: unset;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1075px) {
+    .line {
+        display: none;
+    }
+    .nav-image.fragrance-nav-image {
+        display: none;
+    }
+    .nav-image.lingerie-nav-image {
+        display: none;
+    }
+    .subcategories {
+        display: flex;
+        margin: 20px;
+    }
+    .subcategories div {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .nav-hover {
+        justify-content: unset;
+    }
+}
+
+@media (min-width: 1076px) {
+    .subcategories {
+        display: flex;
+        margin: 20px;
+    }
+    .subcategories div {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+}

@@ -1,0 +1,53 @@
+.order-details {
+    display: flex;
+}
+.order-items {
+    flex-basis: 45%;
+}
+.order-date {
+    flex-basis: 35%; 
+}
+.order-status {
+    flex-basis: 20%; 
+}
+
+.order-headers {
+    margin-bottom: 2rem;
+}
+
+.order-content {
+    align-items: center;
+}
+
+.order-content p {
+    font-size: 13px;
+}
+
+.order-content .status p {
+    background-color: var(--blue);
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.order-profile {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.order-items.items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-items.items div  {
+    width: 60px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.order-items.items img  {
+    width: 100%;
+    height: 100%;
+}

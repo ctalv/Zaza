@@ -1,0 +1,119 @@
+/* --FOR LOGIN AND SIGNUP PAGE-- */
+.login-signup {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-signup .card {
+    width: 35%;
+    background-color: var(--blue);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.zaza-form .zaza-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.zaza-form .zaza-input label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 200;
+    text-indent: 3%;
+}
+
+.zaza-form .zaza-input label:last-child {
+    margin-bottom: 5px;
+}
+
+.zaza-form div label input {
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 3px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.error-text{
+    color: red;
+    text-indent: 3%;
+    font-size: 13px;
+}
+
+.zaza-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.zaza-form-button button {
+    width: 50%;
+    height: 40px;
+    background-color: var(--light);
+    font-size: 18px;
+}
+
+/* --CONTENT OUTSIDE THE FORM CARD-- */
+
+.outside-content .registered-question { 
+    margin: 20px 0 40px;
+    text-align: center;
+}
+
+.outside-content p {
+    font-weight: 300;
+}
+
+/* --JUST FOR LOGIN PAGE-- */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.benefit-div {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefit-div p {
+    width: 80%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.benefits i {
+    font-size: 40px;
+    opacity: .8;
+    cursor: default;
+}
+
+.benefits .line {
+    width: .5px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.signup-switch {
+    text-align: center;
+    margin-top: 15px;
+    opacity: .7;
+}

@@ -1,0 +1,49 @@
+.favorites-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 10px
+}
+
+.favorites-info {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1.5px solid var(--dark);
+    border-bottom: 1.5px solid var(--dark);
+}
+
+.favorites-image {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.favorites-image img {
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.favorites-image img:hover {
+    border-radius: 150px;
+}
+
+.favorites-title-fave {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.favorites-title-fave p {
+    font-size: 15px;
+}
+
+.favorite-price {
+    margin-top: 5px;
+}
+
+.favorites-price p {
+    font-size: 18px;
+    font-weight: 400;
+}

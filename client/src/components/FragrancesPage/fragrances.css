@@ -1,0 +1,80 @@
+.scents-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 2em;
+}
+
+.scent-item {
+    position: relative;
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+}
+
+.scent-item img {
+    width: 100%; 
+    height: 100%;
+}
+
+.scent-item h4 {
+    color: var(--light);
+    font-family: 'Kaisei Decol', serif;
+    font-size: 18px;
+}
+
+.fragrance-cover {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+}
+
+.fragrance-cover:hover {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* .scent-item img {
+    width: 382px; 
+    height: 490px;
+}
+
+.scent-title {
+    font-family: 'Kaisei Decol', serif;
+    position: absolute;
+    width: 382px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.352);
+    border-radius: 5px;
+    z-index: 1;
+    font-size: large;
+}
+
+.scent-title:hover {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+} */
+
+@media screen and (max-width: 768px) {
+    .fasionsets-container {
+        flex-direction: column;
+    }
+
+    .fashion-item {
+        flex: 0 0 calc(100% - 20px);
+    }
+}

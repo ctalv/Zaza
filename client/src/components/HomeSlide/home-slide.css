@@ -1,0 +1,105 @@
+.slide-image {
+    width: 100vw;
+    height: 95vh;
+    z-index: 1;
+    padding: 8rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    animation: main-image-slide 20s ease infinite;
+}
+
+/* ----Main background animation Slide---- */
+@keyframes main-image-slide {
+    0% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    }
+    33% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    }
+    33.33% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    }
+    66% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    }
+    66.66% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690735080/ZAZA%20Images/pixie10_wwboql.jpg');
+    }
+    99% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690735080/ZAZA%20Images/pixie10_wwboql.jpg');
+    }
+    100% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    }
+}
+
+.slide-image, .slide-image .animated-slide {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----Muted background cover--- */
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+/* ----Oval Animation Slide---- */
+.animated-slide {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    border-radius: 12rem;
+    object-fit: cover;
+    background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    animation: sub-image-slide 20s ease infinite;
+}
+
+@keyframes sub-image-slide {
+    0% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    }
+    33% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    }
+    33.33% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690735080/ZAZA%20Images/pixie10_wwboql.jpg');
+    }
+    66% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690735080/ZAZA%20Images/pixie10_wwboql.jpg');
+    }
+    66.66% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    }
+    99% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734720/ZAZA%20Images/fashion-girl-with-bright-make-up-red-dress-lying-water-pool-young-woman-with-closed-eyes-posing-water_btpsps.jpg');
+    }
+    100% {
+        background-image: url('https://res.cloudinary.com/dyxxn831a/image/upload/v1690734968/ZAZA%20Images/fashion-photo-seductive-model-with-perfect-body-posing-tropical-beach-sunset-colots_x0auaw.jpg');
+    }
+}
+
+.take-a-leap {
+    z-index: 1;
+}
+
+.take-a-leap h1 {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.take-a-leap button {
+    background-color: #93CAC0;
+    color: var(--light);
+}

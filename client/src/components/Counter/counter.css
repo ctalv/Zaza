@@ -1,0 +1,26 @@
+.counter {
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding: 2px 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.counter .line {
+    height: 15px;
+    margin: 0 10px;
+}
+
+.counter div p {
+    font-size: 14px;
+}
+
+.counter div:nth-of-type(1), .counter div:nth-of-type(5) {
+    cursor: pointer;
+}
+
+.counter div:nth-of-type(1) p, .counter div:nth-of-type(5) p {
+    font-weight: 200;
+    font-size: 18px;
+}

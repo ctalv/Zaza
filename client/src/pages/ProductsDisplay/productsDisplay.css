@@ -1,0 +1,112 @@
+.products-display-section {
+    width: 100vw;
+    padding-top: 8%;
+    margin-bottom: 5rem;
+}
+
+.products-display-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter, .filter-title {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    margin-top: 20px;
+    gap: 3rem;
+}
+
+.filter i {
+    cursor: default;
+}
+
+.filter-title {
+    gap: 5px;
+}
+
+
+.products-display-grid {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3em;
+    row-gap: 30px;
+}
+
+.product-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.product-image img:hover {
+    border-radius: 300px;
+}
+
+.product-info {
+    border-top: 1.5px solid var(--dark);
+    border-bottom: 1.5px solid var(--dark);
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.title-rating, .price-favorite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-rating div {
+    display: flex;
+    gap: 2px;
+}
+
+.price-favorite {
+    margin-top: 5px;
+}
+
+.price-favorite p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-add {
+    text-align: right;
+    border-bottom: 1.5px solid var(--dark); 
+    padding: 5px 0;
+    cursor: pointer;   
+}
+
+.product-add p {
+    font-weight: 300;
+}
+
+.product-add div {
+    display: none;
+    gap: 20px;
+}
+
+.products-display-grid .no-products {
+    display: block;
+    width: 330%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.product a {
+    color: var(--dark);
+}

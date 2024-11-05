@@ -1,0 +1,18 @@
+.loader-display {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282f2b6e;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #282f2b70;
+    border-top: 4px solid var(--light);
+    animation: spin 1.3s ease infinite;
+}

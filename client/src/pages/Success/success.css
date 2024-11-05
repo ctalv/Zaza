@@ -1,0 +1,53 @@
+.success-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-card {
+    width: 45%;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+}
+
+.top-portion {
+    background-color: var(--blue);
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10em;
+}
+
+.check-mark {
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.check-mark i {
+    font-size: 8rem;
+    color: var(--blue);
+    cursor: default;
+}
+
+.bottom-portion {
+    text-align: center;
+    padding: 5rem 0 30px;
+}
+
+.bottom-portion p {
+    margin-bottom: 20px;
+}
+
+.bottom-portion button {
+    background-color: var(--blue);
+}

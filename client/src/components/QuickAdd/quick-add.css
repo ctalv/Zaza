@@ -1,0 +1,135 @@
+.quick-add {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999; /* Adjust this value as needed */
+    background-color: #282f2b4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-add-modal {
+    width: 60%;
+    background-color: white;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.quick-add-modal.close {
+    animation: fall .4s ease forwards;
+}
+
+.quick-add-modal.open {
+    animation: ascend .4s ease forwards;
+}
+
+@keyframes ascend {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fall {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.modal-images {
+    flex-basis: 40%;
+}
+
+.modal-content {
+    flex-basis: 60%;
+    padding-top: 20px;
+}
+.all-images .image {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.all-images .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.displayed-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 460px;
+}
+
+.modal-images {
+    display: flex;
+    gap: 20px;
+}
+
+.name-favorite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name-favorite .name p:first-child {
+    font-weight: 400;
+}
+
+.name-favorite .name p:last-child {
+    font-size: 24px;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.price p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.size-guide p, .full-details p {
+    font-size: 13px;
+}
+
+.full-details {
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.full-details p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.close-btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.close-btn button {
+    background-color: var(--blue);
+}
+
+.modal-content a {
+    color: var(--dark);
+}

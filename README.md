@@ -3,6 +3,8 @@
 The ultimate destination for exquisite lingerie and fragrances that celebrate the essence of femininity. 
 We understand every woman deserves to feel confident and empowered in her own skin. Our handpicked collection of lingerie, pajamas, bras & panties are thoughtfully designed and selected to complement the customer’s personality and preferences perfectly; with a wide array of sizes, styles, and colors. 
 
+NOTE: This is a clone of the original project from [jmaduafo/Zaza-Ecommerce-Website]( https://github.com/jmaduafo/Zaza-Ecommerce-Website) due to a Heroku deployment billing issue.
+
 
 ## User Story 
 ```
@@ -38,8 +40,21 @@ In the future, our goals involve implementing a tracking status and developing a
 
 
 ## Screenshots of Application 
+Zaza's Homepage 
+![ZazaHomepage](https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691630475/ZAZA%20Website/Screenshot_2023-08-09_at_8.14.19_PM_mudq5z.png) 
+Lingerie Navbar 
+![Navbar](https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691630539/ZAZA%20Website/Screenshot_2023-08-09_at_8.16.30_PM_flyecr.png)
+Fragrances Navbar
+![Fragrances](https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691630504/ZAZA%20Website/Screenshot_2023-08-09_at_8.15.09_PM_of3xo7.png)
+Lingerie Page 
+![LingeriePage](https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691630595/ZAZA%20Website/Screenshot_2023-08-09_at_8.16.45_PM_r2evv5.png)
+Fragrance Page 
+![FragrancePage](https://res.cloudinary.com/dkbpdyz0z/image/upload/v1691630627/ZAZA%20Website/Screenshot_2023-08-09_at_8.17.10_PM_s2yhu0.png)
+
 
 ## Link to Zaza's Website 
+
+https://zaza-019e001487c5.herokuapp.com/
 
 ## Tasks and Roles 
 

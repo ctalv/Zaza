@@ -26,47 +26,6 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-
-
-                <div className="fasionsets-container">
-                    <Link to='/'><div className="fashion-item">
-                        <img src={swimwearSet} alt="SwimwearSet" />
-                        <div className='fashion-item-cover'>
-                            <h4 className="image-title">
-                                Swimwear Set
-                            </h4>
-                        </div>
-                        
-                    </div>
-                    </Link>
-                    <Link to='/lingerie/Bras & Panties'><div className="fashion-item">
-                        <img src={bansSet} alt="SleepwearSet" />
-                        <div className='fashion-item-cover'>
-                            <h4 className="image-title">
-                                Bras & Panties Sets
-                            </h4>
-                        </div>
-                    </div>
-                    </Link>
-                    <Link to='/lingerie'><div className="fashion-item">
-                        <img src={lingerieSet} alt="lingerieset" />
-                        <div className='fashion-item-cover'>
-                            <h4 className="image-title">
-                                Lingerie Sets
-                            </h4>
-                        </div>
-                    </div>
-                    </Link>
-                    <Link to='/lingerie/Bras & Panties'><div className="fashion-item">
-                        <img src={pajamaSet} alt="pajamaset" />
-                        <div className='fashion-item-cover'>
-                            <h4 className="image-title">
-                                Sleepwear
-                            </h4>
-                        </div>
-                    </div>
-                    </Link>
-                </div>
             </div>
         
     );

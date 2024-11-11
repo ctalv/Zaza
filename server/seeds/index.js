@@ -50,7 +50,7 @@ connection.once('open', async () => {
         fragranceData[i].subcategory = subcategories[2]
       } else if (fragranceData[i].name.includes('Hand') && fragranceData[i].name.includes('Wash')) {
         fragranceData[i].subcategory = subcategories[3]
-      } else if (fragranceData[i].name.includes('Hand') && (fragranceData[i].name.includes('Lotion') || fragranceData[i].name.includes('Cream'))) {
+      } else if (fragranceData[i].name.includes('Lotion') || fragranceData[i].name.includes('Cream')) {
         fragranceData[i].subcategory = subcategories[4]
       }  else if (fragranceData[i].name.includes('Candle')) { 
         fragranceData[i].subcategory = subcategories[5]

@@ -8,8 +8,14 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+// const httpLink = createHttpLink({
+//   uri: '/graphql',
+// });
+
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3001/graphql'  // Development server
+    : '/graphql',  // In production, assume it's served from the same server
 });
 
 const authLink = setContext((_, { headers }) => {

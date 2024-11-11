@@ -110,15 +110,18 @@ const Navbar = ({ setNavClick, navClick }) => {
 
   
 
-
-  const { loading: lodingCategories, data: categoryData } = useQuery(QUERY_CATEGORIES);
+  const { loading: lodingCategories, data: categoryData } = useQuery(QUERY_CATEGORIES, {fetchPolicy: 'network-only',});
   const { loading: loadingSubcategories, data: subcategoryData } = useQuery(QUERY_SUBCATEGORIES);
+
+  useEffect(() => {
+    console.log(categoryData); // Log the categoryData to inspect its structure
+  }, [categoryData]);
 
   if (lodingCategories || loadingSubcategories) {
     return <Loader/>;
   }
 
-  console.log(categoryData)
+
   
   function calculateTotalItems() {
     let sum = 0;

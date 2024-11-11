@@ -16,18 +16,14 @@ connection.once('open', async () => {
     await SubCategory.deleteMany();
 
     const categories = await Category.create(categoryData);
-
+    console.log(categories)
     for (let i = 0; i < subCategoryData.length; i++) {
          console.log(i, subCategoryData[i]) 
-         
-      if (i < 12) {
-        // lingerie
-        subCategoryData[i].category = categories[0]._id
-      } else {
-        // fragrances
-        subCategoryData[i].category = categories[1]._id
+
+      subCategoryData[i].category = categories[0]._id
+
     }
-  }
+  
     const subcategories = await SubCategory.insertMany(subCategoryData)
 
     // function getRandomSubcategoryLingerie() {

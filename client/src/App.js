@@ -25,8 +25,8 @@ function App() {
   // THERE ARE NO ERRORS
   const [navClick, setNavClick] = useState(window.location.href.split('/').slice(-1)[0].split('%20').join(' '))
 
-  const [allLingerie, setAllLingerie] = useState('All Lingerie')
-  const [allFragrance, setAllFragrance] = useState('All Fragrance')
+  const [allLingerie, setAllLingerie] = useState('Lingerie')
+  const [allFragrance, setAllFragrance] = useState('Fragrance')
   const [productFavorite, setProductFavorite] = useState([])
   const [count, setCount] = useState(0)
 

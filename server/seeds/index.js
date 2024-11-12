@@ -62,11 +62,12 @@ connection.once('open', async () => {
         fragranceData[i].subcategory = subcategories[8]
       }
       // fragranceData[i].subcategory = subcategories[getRandomSubcategoryFragrance()]
+      console.log(fragranceData[i])
     }
 
     await Product.insertMany(fragranceData);
 
-
+    console.log(fragranceData)
     console.log('all done!');
     process.exit(0);
 

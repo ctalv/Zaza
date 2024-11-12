@@ -18,6 +18,7 @@ export const QUERY_PRODUCTS = gql`
       subcategory {
         _id
       }
+      
     }
   }
 `;

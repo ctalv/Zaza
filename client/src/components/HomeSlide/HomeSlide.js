@@ -7,10 +7,10 @@ function HomeSlide() {
     <div className='home-slide'>
         <div className='slide-image'>
             <div className='cover'></div>
-            <div className='animated-slide'></div>
+            {/* <div className='animated-slide'></div> */}
             <div className='take-a-leap'>
                 <h1>Take a Leap Into the Zaza Way</h1>
-                <Link to='/lingerie'><button>Shop Now</button></Link>
+                <Link to='/fragrance'><button>Shop Now</button></Link>
             </div>
         </div>
     </div>

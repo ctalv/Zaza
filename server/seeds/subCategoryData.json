@@ -1,82 +1,34 @@
 [
     {
-        "name": "Bras & Panties",
-        "title": "Style"
-    },
-    {
-        "name": "Corsets",
-        "title": "Style"
-    },
-    {
-        "name": "Slips",
-        "title": "Style"
-    },
-    {
-        "name": "Garters & Stockings",
-        "title": "Style"
-    },
-    {
-        "name": "Teddies",
-        "title": "Style"
-    },
-    {
-        "name": "Babydolls",
-        "title": "Style"
-    },
-    {
-        "name": "Thongs",
-        "title": "Panties"
-    },
-    {
-        "name": "Cheekies",
-        "title": "Panties"
-    },
-    {
-        "name": "Boyshorts",
-        "title": "Panties"
-    },
-    {
-        "name": "G-Strings",
-        "title": "Panties"
-    },
-    {
-        "name": "Bras & Panties Sets",
-        "title": "Shop By Collection"
-    },
-    {
-        "name": "Pajama Sets",
-        "title": "Shop By Collection"
-    },
-    {
         "name": "Body Oil",
-        "title": "Body Essentials"
+        "title": "Body"
     },
     {
         "name": "Shower & Body Wash",
-        "title": "Body Essentials"
+        "title": "Body"
     },
     {
         "name": "Parfum",
-        "title": "Body Essentials"
+        "title": "Body"
     },
     {
         "name": "Hand Wash",
-        "title": "Body Essentials"
+        "title": "Body"
     },
     {
         "name": "Hand Cream",
-        "title": "Body Essentials"
+        "title": "Body"
     },
     {
         "name": "Candles",
-        "title": "Home Essentials"
+        "title": "Home"
     },
     {
         "name": "Diffusers",
-        "title": "Home Essentials"
+        "title": "Home"
     },
     {
         "name": "Home Sprays",
-        "title": "Home Essentials"
+        "title": "Home"
     }
 ]

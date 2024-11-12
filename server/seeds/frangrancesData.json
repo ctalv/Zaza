@@ -7,6 +7,7 @@
         ],
         "price": 69.95,
         "stock": 50,
+        "scent-category": "",
         "sizes": [
             "1.7 oz",
             "3.4 oz"
@@ -20,6 +21,7 @@
         ],
         "price": 30.95,
         "stocks": 110,
+        "scent-category": "",
         "scents": [
             "Warm Florals"
         ],
@@ -36,6 +38,7 @@
         ],
         "price": 19.95,
         "stock": 250,
+        "scent-category": "",
         "scents": [
             "Sweet Vanilla",
             "Honey Melon"
@@ -52,6 +55,7 @@
         ],
         "price": 19.95,
         "stock": 250,
+        "scent-category": "",
         "scents": [
             "Petal Buzz",
             "Sugar Blur",
@@ -67,6 +71,7 @@
         ],
         "price": 46.95,
         "stock": 150,
+        "scent-category": "",
         "scents": [
             "Fresh Fruity Florals"
         ],
@@ -82,6 +87,7 @@
         ],
         "price": 25.95,
         "stocks": 112,
+        "scent-category": "",
         "scents": [
             "Warm Florals",
             "Honey Melon",
@@ -99,6 +105,7 @@
         ],
         "price": 15.65,
         "stocks": 340,
+        "scent-category": "",
         "scents": [
             "Exotica",
             "Magnolia Rise"
@@ -116,6 +123,7 @@
         ],
         "price": 15.65,
         "stocks": 140,
+        "scent-category": "",
         "scents": [
             "Honey",
             "Rich Royal"
@@ -133,6 +141,7 @@
         ],
         "price": 15.65,
         "stocks": 120,
+        "scent-category": "",
         "scents": [
             "Exotica",
             "Magnolia Rise"
@@ -150,6 +159,7 @@
         ],
         "price": 15.65,
         "stocks": 120,
+        "scent-category": "",
         "scents": [
             "Cherry",
             "Orange"
@@ -167,6 +177,7 @@
         ],
         "price": 15.65,
         "stocks": 100,
+        "scent-category": "",
         "scents": [
             "Herb",
             "Pine"
@@ -175,5 +186,6 @@
             "2.0oz",
             "4.2oz"
         ]
+        
     }
 ]
